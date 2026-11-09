@@ -1,6 +1,6 @@
 import books from './app/data/books.json'
 
-const routes = ['/', '/cari', '/tanda']
+const routes = ['/', '/cari', '/tanda', '/jadwal']
 for (const b of books as any[]) {
   routes.push(`/${b.key}`)
   for (const c of b.chapters) routes.push(`/${b.key}/${c.slug}`)

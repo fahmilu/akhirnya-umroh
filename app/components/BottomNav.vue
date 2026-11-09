@@ -2,6 +2,7 @@
 const route = useRoute()
 const items = [
   { to: '/', label: 'Beranda', icon: 'home', exact: true },
+  { to: '/jadwal', label: 'Jadwal', icon: 'calendar' },
   { to: '/pegangan', label: 'Pegangan', icon: 'book' },
   { to: '/doa', label: 'Doa', icon: 'hands' },
   { to: '/cari', label: 'Cari', icon: 'search' },

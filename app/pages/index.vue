@@ -67,6 +67,16 @@ onMounted(() => (mounted.value = true))
         <Icon name="chev" class="chev" />
       </NuxtLink>
 
+      <NuxtLink to="/jadwal" class="card jadwal-card">
+        <span class="ri"><Icon name="calendar" /></span>
+        <span class="row-main">
+          <small>Itinerary & jadwal sholat</small>
+          <b>Jadwal Umrah 11 – 19 Nov 2026</b>
+          <small>Madinah · Makkah · Jeddah — per hari</small>
+        </span>
+        <Icon name="chev" class="chev" />
+      </NuxtLink>
+
       <div class="books">
         <NuxtLink to="/pegangan" class="bookcard peg">
           <span class="bk-ic"><Icon name="book" /></span>
@@ -130,6 +140,9 @@ h1 { margin: 18px 0 2px; font-size: 26px; line-height: 1.2; letter-spacing: -.01
 .resume { display: flex; align-items: center; gap: 12px; padding: 14px 16px; margin-top: 16px; }
 .resume .ri { width: 40px; height: 40px; border-radius: 12px; background: var(--gold-soft); color: var(--gold-d); display: grid; place-items: center; flex: none; }
 .resume .row-main small:first-child { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--gold-d); margin: 0; }
+.jadwal-card { display: flex; align-items: center; gap: 12px; padding: 14px 16px; margin-top: 16px; }
+.jadwal-card .ri { width: 40px; height: 40px; border-radius: 12px; background: var(--green-soft); color: var(--green); display: grid; place-items: center; flex: none; }
+.jadwal-card .row-main small:first-child { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--green); margin: 0; }
 .books { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
 .bookcard { display: flex; flex-direction: column; padding: 16px; border-radius: 20px; min-height: 196px; color: #fff; position: relative; overflow: hidden; box-shadow: var(--shadow); }
 .bookcard.peg { background: linear-gradient(160deg, #16695b, #0e4f45); }

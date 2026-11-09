@@ -19,6 +19,7 @@ const P: Record<string, string> = {
   check: 'M20 6L9 17l-5-5',
   kaaba: 'M4 8l8-4 8 4v9l-8 4-8-4zM4 8l8 4 8-4M12 12v9M4 11l8 4 8-4',
   arrow: 'M5 12h14M13 6l6 6-6 6',
+  calendar: 'M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM4 10h16M8 2v4M16 2v4M8 14h3M8 17h6',
   moon: 'M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z',
 }
 </script>
